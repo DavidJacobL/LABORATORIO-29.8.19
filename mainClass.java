@@ -1,4 +1,3 @@
-
 /**
  *
  * @author DAVID JACOB LÓPEZ MORATAYA
@@ -6,25 +5,24 @@
  */
 public class mainClass {
     
+    
+    //H A C E R   U N   M E N Ú
+    
     public static void main(String[] args) {
         ifClass condicional= new ifClass();
    condicional.setIgual(5, 250);
-    condicional.setMayor(x,y);
-    condicional.setMenor(x,y);
-    condicional.setMaximo(x,y);
-    condicional.setMinimo(x,y);
-    condicional.setsqrt(x,y);
-    condicional.setfnCuadratica(x,y);
-    condicional.setResta(x,y);
-    condicional.setMultiplicacion(x,y);
-    condicional.setDivision(x,y);
-    condicional.setAnd(x,y);
-    condicional.setOr(x,y);
-     condicional.setNOT(x,y);
+    condicional.setMayor(15,5);
+    condicional.setMenor(120,30);
+    condicional.setMaximo(5,10);
+    condicional.setMinimo(2,3);
+    condicional.setsqrt(25);
+    condicional.setfnCuadratica(4,10,5);
+    condicional.setResta(40,5);
+    condicional.setMultiplicacion(20,200);
+    condicional.setDivision(20,2);
+    condicional.setAND(8,2);
+    condicional.setO(2,4);
+     condicional.setNOT(100,100);
    
-    
-    
-    
     }
-    
 }
